@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+		<title>Stencil Component Starter</title>
+		<script src="./index.js"></script>
+		<script
+			type="module"
+			src="/node_modules/@jaak.ai/face-detector/dist/jaak-face-detector-webcomponent/jaak-face-detector-webcomponent.esm.js"></script>
+	</head>
+	<body>
+		<h1>Select Video Device</h1>
+		<select id="videoSelect"></select>
+		<h1>Face Detector</h1>
+		<p>
+			STATUS:
+			<strong id="render-status"></strong>
+		</p>
+
+		<button id="switch-btn">Switch Mode</button>
+
+		<button id="photo-btn">Take Photo</button>
+		<button id="video-btn">Take Video</button>
+		<button id="stop-btn">Stop</button>
+	</body>
+</html>
