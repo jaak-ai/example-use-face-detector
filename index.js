@@ -38,6 +38,9 @@ async function getVideoDevices() {
 					deviceId: selectedDeviceId ? { exact: selectedDeviceId } : undefined,
 				},
 				validateCamera: true,
+				whiteListDevices: ['Integrated Camera', 'HD WebCam'],
+				blackListDevices: [],
+				onlyLocalBlackList: false,
 			};
 			document.body.appendChild(faceDetector);
 
