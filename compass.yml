@@ -1,0 +1,14 @@
+name: example-use-face-detector
+id: ari:cloud:compass:3bb16e59-5eaf-47cb-a0aa-3c3febc65466:component/656b16c9-c93c-439c-be64-701e12e8301a/07e83a00-9c06-49ff-9798-0e95baf30858
+description: This is project explains how to use face-detector library
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links: []
+relationships:
+  DEPENDS_ON: []
+labels:
+  - language:javascript
+  - source:github
+customFields: null
